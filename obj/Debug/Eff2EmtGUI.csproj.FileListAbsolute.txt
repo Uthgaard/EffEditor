@@ -1,0 +1,9 @@
+D:\P99 Dev\Eff2EmtGUI\bin\Debug\Eff2EmtGUI.exe.config
+D:\P99 Dev\Eff2EmtGUI\bin\Debug\Eff2EmtGUI.exe
+D:\P99 Dev\Eff2EmtGUI\bin\Debug\Eff2EmtGUI.pdb
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.Form1.resources
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.Properties.Resources.resources
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.csproj.GenerateResource.cache
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.csproj.CoreCompileInputs.cache
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.exe
+D:\P99 Dev\Eff2EmtGUI\obj\Debug\Eff2EmtGUI.pdb

@@ -18,7 +18,6 @@ namespace Eff2EmtGUI
         };
 
         public string fileName;
-        public 
 
         public Form1()
         {

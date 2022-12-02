@@ -9,7 +9,7 @@ namespace Eff2EmtGUI
 {
     class SoundsEffImport
     {
-
+        /*
         public static Dictionary<int, string> HardCodedSoundFiles = new Dictionary<int, string>()
         {
             {  39, "death_me" },
@@ -136,7 +136,7 @@ namespace Eff2EmtGUI
                     _effEntry.FadeOutMS = _effFile.ReadInt32();
                     _effEntry.UnkRange72 = _effFile.ReadInt32();
                     _effEntry.FullVolRange = _effFile.ReadInt32();
-                    _effEntry.UnkRange80 = _effFile.ReadInt32();
+                    _effEntry.UnkRange80 = _effFile.ReadInt32();                
                     //dataGridView1.Rows.Add(_effEntry.UnkRef00, _effEntry.UnkRef04, _effEntry.Reserved, _effEntry.Sequence, _effEntry.X, _effEntry.Y, _effEntry.Z, _effEntry.Radius, _effEntry.Cooldown1, _effEntry.Cooldown2, _effEntry.RandomDelay, _effEntry.Unk44, _effEntry.SoundID1, _effEntry.SoundID2, _effEntry.SoundType, _effEntry.UnkPad57, _effEntry.UnkPad58, _effEntry.UnkPad59, _effEntry.AsDistance, _effEntry.UnkRange64, _effEntry.FadeOutMS, _effEntry.UnkRange72, _effEntry.FullVolRange, _effEntry.UnkRange80);
                 }
 
@@ -145,7 +145,7 @@ namespace Eff2EmtGUI
             return System.Windows.Forms.DialogResult.OK;
 
         }
-
+        */
     }
 
 }

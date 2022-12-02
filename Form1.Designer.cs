@@ -71,6 +71,7 @@
             this.UnkRange80 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Import = new System.Windows.Forms.Button();
             this.Export = new System.Windows.Forms.Button();
+            this.LineNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,14 +92,14 @@
             this.textEQFolder.Location = new System.Drawing.Point(26, 58);
             this.textEQFolder.Margin = new System.Windows.Forms.Padding(7);
             this.textEQFolder.Name = "textEQFolder";
-            this.textEQFolder.Size = new System.Drawing.Size(1110, 35);
+            this.textEQFolder.Size = new System.Drawing.Size(1450, 35);
             this.textEQFolder.TabIndex = 1;
             this.textEQFolder.TextChanged += new System.EventHandler(this.textEQFolder_TextChanged);
             // 
             // buttonBrowseEQFolder
             // 
             this.buttonBrowseEQFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonBrowseEQFolder.Location = new System.Drawing.Point(1141, 58);
+            this.buttonBrowseEQFolder.Location = new System.Drawing.Point(1481, 58);
             this.buttonBrowseEQFolder.Margin = new System.Windows.Forms.Padding(7);
             this.buttonBrowseEQFolder.Name = "buttonBrowseEQFolder";
             this.buttonBrowseEQFolder.Size = new System.Drawing.Size(86, 45);
@@ -169,7 +170,7 @@
             this.listZoneEffs.Location = new System.Drawing.Point(26, 183);
             this.listZoneEffs.Margin = new System.Windows.Forms.Padding(7);
             this.listZoneEffs.Name = "listZoneEffs";
-            this.listZoneEffs.Size = new System.Drawing.Size(1196, 267);
+            this.listZoneEffs.Size = new System.Drawing.Size(1536, 267);
             this.listZoneEffs.TabIndex = 4;
             this.listZoneEffs.UseCompatibleStateImageBehavior = false;
             this.listZoneEffs.View = System.Windows.Forms.View.List;
@@ -183,7 +184,7 @@
             this.progressConversion.Location = new System.Drawing.Point(256, 459);
             this.progressConversion.Margin = new System.Windows.Forms.Padding(7);
             this.progressConversion.Name = "progressConversion";
-            this.progressConversion.Size = new System.Drawing.Size(966, 62);
+            this.progressConversion.Size = new System.Drawing.Size(1306, 62);
             this.progressConversion.TabIndex = 9;
             // 
             // threadConverter
@@ -218,7 +219,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Location = new System.Drawing.Point(728, 560);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(494, 45);
+            this.button1.Size = new System.Drawing.Size(834, 45);
             this.button1.TabIndex = 12;
             this.button1.Text = "Select *sounds.eff file for Direct Editing";
             this.button1.UseVisualStyleBackColor = true;
@@ -260,14 +261,14 @@
             this.FadeOutMS,
             this.UnkRange72,
             this.FullVolRange,
-            this.UnkRange80});
+            this.UnkRange80,
+            this.LineNumber});
             this.dataGridView1.Location = new System.Drawing.Point(26, 611);
-            this.dataGridView1.MaximumSize = new System.Drawing.Size(4000, 250);
             this.dataGridView1.MinimumSize = new System.Drawing.Size(1196, 250);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 92;
             this.dataGridView1.RowTemplate.Height = 37;
-            this.dataGridView1.Size = new System.Drawing.Size(1196, 250);
+            this.dataGridView1.Size = new System.Drawing.Size(1536, 421);
             this.dataGridView1.TabIndex = 13;
             // 
             // UnkRef00
@@ -275,174 +276,174 @@
             this.UnkRef00.HeaderText = "UnkRef00";
             this.UnkRef00.MinimumWidth = 40;
             this.UnkRef00.Name = "UnkRef00";
-            this.UnkRef00.Width = 150;
+            this.UnkRef00.Width = 120;
             // 
             // UnkRef04
             // 
             this.UnkRef04.HeaderText = "UnkRef04";
             this.UnkRef04.MinimumWidth = 40;
             this.UnkRef04.Name = "UnkRef04";
-            this.UnkRef04.Width = 150;
+            this.UnkRef04.Width = 80;
             // 
             // Reserved
             // 
             this.Reserved.HeaderText = "Reserved";
             this.Reserved.MinimumWidth = 40;
             this.Reserved.Name = "Reserved";
-            this.Reserved.Width = 150;
+            this.Reserved.Width = 80;
             // 
             // Sequence
             // 
             this.Sequence.HeaderText = "Sequence";
             this.Sequence.MinimumWidth = 40;
             this.Sequence.Name = "Sequence";
-            this.Sequence.Width = 150;
+            this.Sequence.Width = 80;
             // 
             // X
             // 
             this.X.HeaderText = "X";
             this.X.MinimumWidth = 40;
             this.X.Name = "X";
-            this.X.Width = 150;
+            this.X.Width = 60;
             // 
             // Y
             // 
             this.Y.HeaderText = "Y";
             this.Y.MinimumWidth = 40;
             this.Y.Name = "Y";
-            this.Y.Width = 150;
+            this.Y.Width = 60;
             // 
             // Z
             // 
             this.Z.HeaderText = "Z";
             this.Z.MinimumWidth = 40;
             this.Z.Name = "Z";
-            this.Z.Width = 150;
+            this.Z.Width = 60;
             // 
             // Radius
             // 
             this.Radius.HeaderText = "Radius";
             this.Radius.MinimumWidth = 40;
             this.Radius.Name = "Radius";
-            this.Radius.Width = 150;
+            this.Radius.Width = 90;
             // 
             // Cooldown1
             // 
             this.Cooldown1.HeaderText = "Cooldown1";
             this.Cooldown1.MinimumWidth = 40;
             this.Cooldown1.Name = "Cooldown1";
-            this.Cooldown1.Width = 150;
+            this.Cooldown1.Width = 90;
             // 
             // Cooldown2
             // 
             this.Cooldown2.HeaderText = "Cooldown2";
             this.Cooldown2.MinimumWidth = 40;
             this.Cooldown2.Name = "Cooldown2";
-            this.Cooldown2.Width = 150;
+            this.Cooldown2.Width = 90;
             // 
             // RandomDelay
             // 
             this.RandomDelay.HeaderText = "RandomDelay";
             this.RandomDelay.MinimumWidth = 40;
             this.RandomDelay.Name = "RandomDelay";
-            this.RandomDelay.Width = 150;
+            this.RandomDelay.Width = 90;
             // 
             // Unk44
             // 
             this.Unk44.HeaderText = "Unk44";
             this.Unk44.MinimumWidth = 40;
             this.Unk44.Name = "Unk44";
-            this.Unk44.Width = 150;
+            this.Unk44.Width = 90;
             // 
             // SoundID1
             // 
             this.SoundID1.HeaderText = "SoundID1";
             this.SoundID1.MinimumWidth = 40;
             this.SoundID1.Name = "SoundID1";
-            this.SoundID1.Width = 150;
+            this.SoundID1.Width = 90;
             // 
             // SoundID2
             // 
             this.SoundID2.HeaderText = "SoundID2";
             this.SoundID2.MinimumWidth = 40;
             this.SoundID2.Name = "SoundID2";
-            this.SoundID2.Width = 150;
+            this.SoundID2.Width = 90;
             // 
             // SoundType
             // 
             this.SoundType.HeaderText = "SoundType";
             this.SoundType.MinimumWidth = 40;
             this.SoundType.Name = "SoundType";
-            this.SoundType.Width = 150;
+            this.SoundType.Width = 90;
             // 
             // UnkPad57
             // 
             this.UnkPad57.HeaderText = "UnkPad57";
             this.UnkPad57.MinimumWidth = 40;
             this.UnkPad57.Name = "UnkPad57";
-            this.UnkPad57.Width = 150;
+            this.UnkPad57.Width = 90;
             // 
             // UnkPad58
             // 
             this.UnkPad58.HeaderText = "UnkPad58";
             this.UnkPad58.MinimumWidth = 40;
             this.UnkPad58.Name = "UnkPad58";
-            this.UnkPad58.Width = 150;
+            this.UnkPad58.Width = 90;
             // 
             // UnkPad59
             // 
             this.UnkPad59.HeaderText = "UnkPad59";
             this.UnkPad59.MinimumWidth = 40;
             this.UnkPad59.Name = "UnkPad59";
-            this.UnkPad59.Width = 150;
+            this.UnkPad59.Width = 90;
             // 
             // AsDistance
             // 
             this.AsDistance.HeaderText = "AsDistance";
             this.AsDistance.MinimumWidth = 40;
             this.AsDistance.Name = "AsDistance";
-            this.AsDistance.Width = 150;
+            this.AsDistance.Width = 90;
             // 
             // UnkRange64
             // 
             this.UnkRange64.HeaderText = "UnkRange64";
             this.UnkRange64.MinimumWidth = 40;
             this.UnkRange64.Name = "UnkRange64";
-            this.UnkRange64.Width = 150;
+            this.UnkRange64.Width = 90;
             // 
             // FadeOutMS
             // 
             this.FadeOutMS.HeaderText = "FadeOutMS";
             this.FadeOutMS.MinimumWidth = 40;
             this.FadeOutMS.Name = "FadeOutMS";
-            this.FadeOutMS.Width = 150;
+            this.FadeOutMS.Width = 90;
             // 
             // UnkRange72
             // 
             this.UnkRange72.HeaderText = "UnkRange72";
             this.UnkRange72.MinimumWidth = 40;
             this.UnkRange72.Name = "UnkRange72";
-            this.UnkRange72.Width = 150;
+            this.UnkRange72.Width = 90;
             // 
             // FullVolRange
             // 
             this.FullVolRange.HeaderText = "FullVolRange";
             this.FullVolRange.MinimumWidth = 40;
             this.FullVolRange.Name = "FullVolRange";
-            this.FullVolRange.Width = 150;
+            this.FullVolRange.Width = 90;
             // 
             // UnkRange80
             // 
             this.UnkRange80.HeaderText = "UnkRange80";
             this.UnkRange80.MinimumWidth = 40;
             this.UnkRange80.Name = "UnkRange80";
-            this.UnkRange80.Width = 150;
+            this.UnkRange80.Width = 90;
             // 
             // Import
             // 
-            this.Import.Location = new System.Drawing.Point(26, 882);
+            this.Import.Location = new System.Drawing.Point(26, 1051);
             this.Import.Name = "Import";
-            this.Import.Size = new System.Drawing.Size(580, 70);
+            this.Import.Size = new System.Drawing.Size(756, 70);
             this.Import.TabIndex = 14;
             this.Import.Text = "Import Values (Will revert unsaved changes)";
             this.Import.UseVisualStyleBackColor = true;
@@ -450,21 +451,29 @@
             // 
             // Export
             // 
-            this.Export.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Export.Location = new System.Drawing.Point(612, 882);
+            this.Export.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Export.Location = new System.Drawing.Point(793, 1051);
             this.Export.Name = "Export";
-            this.Export.Size = new System.Drawing.Size(609, 70);
+            this.Export.Size = new System.Drawing.Size(774, 70);
             this.Export.TabIndex = 15;
             this.Export.Text = "Export Values (Will save changes)";
             this.Export.UseVisualStyleBackColor = true;
+            // 
+            // LineNumber
+            // 
+            this.LineNumber.HeaderText = "Row";
+            this.LineNumber.MinimumWidth = 11;
+            this.LineNumber.Name = "LineNumber";
+            this.LineNumber.Width = 225;
             // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1253, 1412);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1593, 1131);
             this.Controls.Add(this.Export);
             this.Controls.Add(this.Import);
             this.Controls.Add(this.dataGridView1);
@@ -482,11 +491,11 @@
             this.Controls.Add(this.textEQFolder);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(7);
-            this.MinimumSize = new System.Drawing.Size(1281, 438);
+            this.MinimumSize = new System.Drawing.Size(1621, 1210);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "d";
+            this.Text = "Experimental *_sounds.eff Binary Editor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
@@ -542,6 +551,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn UnkRange80;
         private System.Windows.Forms.Button Import;
         private System.Windows.Forms.Button Export;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LineNumber;
     }
 }
 

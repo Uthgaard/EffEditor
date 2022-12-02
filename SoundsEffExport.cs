@@ -9,7 +9,7 @@ namespace Eff2EmtGUI
 {
     class SoundsEffExport
     {
-
+        /*
         protected static Dictionary<int, string> HardCodedSoundFiles = new Dictionary<int, string>()
         {
             {  39, "death_me" },
@@ -77,6 +77,6 @@ namespace Eff2EmtGUI
             public Int32 UnkRange80;
         };
 
-
+        */
     }
 }
